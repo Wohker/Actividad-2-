@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+<!-- En este pryecto se realizo las paginas webs para un negocio de frutas y verduras que esta ubicado en Nueco leon
+tiene como proposito señalar los precios y frutas que se etan vendiendo  -->
+
+    </head>
+
+    <body>
+        <h1 style="color: orange ;background-color: greenyellow;" id="Titulo  principal" >FRUTERIAS EL CHARRO </h1>
+        <a href"" ></a>>
+
+        Hola que tal gracias por vitirarnos bien venido querido cliente
+        utd sabe que es lo mas importante para nosotros...
+<figure>
+    <img src="img/Frutas-y-verduras-de-temporada.jpg" alt="">
+</figure>
+
+        <p style="color:red;">Te mostramos nuestros siguentes productos en existencia:</p>
+        <p>Contamos con Piña en $19.55 el kilo</p>
+        <p>Contamos con Aguacate en $45.55 el kilo</p>
+        <p>Contamos con Limon en $9.60 el kilo</p>
+        <p>Contamos con Kiwi en $45.50 el kilo</p>
+        <p>Contamos con Durazno en $35.55 el kilo</p>
+        <p>Contamos con Jicama en $22.00 el kilo</p>
+        <p>Contamos con Naranja en $9.75 el kilo</p>
+        <p>Contamos con Flor de Jamaica en $77.65 el kilo</p>
+        <p>Contamos con Tomate en $8.15 el kilo</p>
+        <p>Contamos con Cebolla en $33.05 el kilo</p>
+
+        <figure>
+            <img src="img/20190521_Frutas-más-saludables.jpg" alt="">
+        </figure>
+        <p style="color: royalblue;">Le recordamos que tenemos servicio a domicilio con un costo de $20 Pesos por envio en un area de 10 kilometros a la redonda</p>
+    </body>
+</html>

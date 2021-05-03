@@ -1,0 +1,238 @@
+img {
+    border: 3px solid blueviolet;
+}
+
+
+/*Selector universal*/
+/*    
+*{
+    border: 1px dotted 
+} */
+
+p {
+    text-align: center;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+
+<style>
+    *p{
+        color:aqua;
+        background-color:white;
+    }*/ 
+</style>
+
+
+
+
+
+.celeste {
+    color: aqua;
+}
+
+.borde {
+    border: 3px solid black;
+}
+
+
+
+
+
+
+/* Selector de clase de un elemento en espesifico*/
+
+h2.rojo {
+    color: blueviolet;
+    border: 2px solid cyan;
+}
+
+
+/* Selector por atributo  alt 91 */ 
+
+p [clas] {
+    background-color: cyan;
+
+}
+
+
+p[lang]{
+    border: 2px solid blueviolet;
+}
+
+h2 [class~= "rojo"] {
+    border: 3px solid red;
+}
+
+
+/* Este apartado pone los links de color verde  ya que empiesa con htt*/
+ a[href^="htt"]{
+     background-color: greenyellow;
+ }
+
+
+ /*Si quieres que lo que termine se ponga de color seria ya que 
+ el .com.mx y los cambia de color */
+
+ a[href$=".com.mx"]{
+     background-color: yellow;
+
+ }
+
+
+ /* Selectores de listas  */
+ h2, p {
+     background-color: orange;
+ }
+
+
+ /*Selectores compuestos*/
+<element class-"rojo">
+selector specificty :(0,1,0)
+h2.rojo{
+    color: papayawhip;
+}
+
+
+
+/*Combinadores CSS*/
+/*selector de desendientes*/
+
+article h2{
+    background-color: tomato;
+}
+
+/*Hermano general */
+
+div.header ~ div {
+    background-color: turquoise;
+}
+
+
+/*Selector usando pseudo- classes*/
+
+p:hover{
+    background-color: tomato;
+}
+
+figure:hover{
+    background-color:aquamarine;
+}
+
+a:hover{
+    background-color:lightpink ;
+}
+
+/*Pseudo elemntos  subraya las primeras partes de un parrafo */
+/*P::first-line{
+    background-color:wheat;
+}*/
+
+p::first-letter{
+    font-size: 30px;
+}
+
+
+h1::first-letter{
+    font-size: 30px;
+}
+
+/* Modelo de caja*/
+
+p {
+    border: 8px darkorange;
+    padding: 3px; 
+    margin: 0 auto;
+       
+
+}
+
+figure{
+    border: 0px  darkorange ;
+    padding: 3px 3px ;
+    margin: 0px;
+}
+
+
+figure {
+    text-align: center;
+}
+
+h1  {
+    border: 3px solid black;
+    text-align: center;
+    width: 0 auto;
+    margin: 1px;
+}
+
+figure {
+    background-color:  orange;
+}
+
+h1{
+    background-color: orange;
+}
+
+img{
+    width: 800px;
+}
+
+
+
+h2 {
+    border: 3px solid black;
+    text-align: center;
+    width: 0 auto;
+    margin: 1px;
+    background-color: orange;
+}
+
+
+/*Eliminar estilos por default
+
+header img {
+    width: 100&;
+
+}
+
+header ul {
+    list-style: none;
+}
+*/
+
+
+
+.clearfix::after{
+    clear: both;
+    content:"" ;
+    display: table;
+
+}
+
+
+
+header ul {
+    text-align: center;
+}
+
+header ul li  {
+    float: left;
+    width: 20%;
+}
+
+
+header a{
+    display: block;
+    margin: 0px;
+    background-color: orange;
+}
